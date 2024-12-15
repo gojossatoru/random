@@ -1,0 +1,8 @@
+def pali(lol):
+    if lol == lol[::-1]:
+        return True
+    return False
+
+lol=[i.lower() for i in input() if i not in ' .,?!-']
+
+print(pali(lol))
